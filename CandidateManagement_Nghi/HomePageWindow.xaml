@@ -1,0 +1,34 @@
+﻿<Window x:Class="CandidateManagement_Nghi.HomePageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CandidateManagement_Nghi"
+        mc:Ignorable="d"
+        Title="HomePageWindow" Height="450" Width="800">
+    <Grid Background="#FFA89CC7">
+        <Image HorizontalAlignment="Left" Height="217" Margin="35,10,0,0" VerticalAlignment="Top" Width="710" Source="/Remove-bg.ai_1729773333741.png" Stretch="UniformToFill"/>
+        <Button x:Name="btnCandidate" Content="Candidate Management" HorizontalAlignment="Center" Height="52" Margin="0,244,0,0" VerticalAlignment="Top" Width="600" Background="#FFC68FD7" FontSize="14" FontWeight="Bold" Click="btnCandidate_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnJobPosting" Content="Job Posting" HorizontalAlignment="Center" Height="52" Margin="0,321,0,0" VerticalAlignment="Top" Width="600" Background="#FFC68FD7" FontSize="14" FontWeight="Bold" Click="btnJobPosting_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock x:Name="tblRole" HorizontalAlignment="Left" Height="24" Margin="194,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" FontSize="14" FontWeight="Bold" TextAlignment="Center"/>
+        <Button x:Name="btnClose" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="116" Background="#FFC68FD7" FontWeight="Bold" FontSize="14" Content="Close" Click="btnClose_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnLogout" HorizontalAlignment="Left" Height="36" Margin="674,10,0,0" VerticalAlignment="Top" Width="104" Background="#FFC68FD7" FontWeight="Bold" FontSize="14" Content="Logout" Click="btnLogout_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>
